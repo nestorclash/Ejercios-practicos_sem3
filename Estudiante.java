@@ -1,5 +1,5 @@
 
-package Demostracion;
+package Estudiante;
 
 public class Estudiante {
     int edad=0;
