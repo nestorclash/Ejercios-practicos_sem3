@@ -1,8 +1,8 @@
 
-package Desarrollo;
+package Transacciones_Bancarias;
 
 
-public class TransaccionesBancarias {
+public class Transacciones_Bancarias {
     public static void main(String[] args) {
        
         CuentaBancaria cuenta =new CuentaBancaria();
