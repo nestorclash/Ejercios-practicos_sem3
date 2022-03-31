@@ -1,7 +1,7 @@
 
-package Desarrollo;
+package Cuenta_Bancaria;
 
-public class CuentaBancaria {
+public class Cuenta_Bancaria {
     long numeroCuenta;
     Cliente propietarioCuenta;
    double saldoCuenta;
