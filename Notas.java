@@ -1,5 +1,5 @@
 
-package Demostracion;
+package Notas;
 
 public class Notas {
     
