@@ -1,28 +1,28 @@
 package cuenta_bancaria;
 
-public class CUENTA_BANCARIA {
+public class Cuenta_Bancaria {
 
 
-    long numeroCuenta;
+    long NumeroCuenta;
     Cliente propietarioCuenta;
-   double saldoCuenta;
+   double SaldoCuenta;
     
     public void ABONAR(double cantidad){
-        saldoCuenta+= cantidad;//logica de negocio
+        SaldoCuenta+= Cantidad;//logica de negocio
         
     }
-    public void RETIRAR(double cantidad){
-        if(cantidad > saldoCuenta){
+    public void Retirar(double Cantidad){
+        if(Cantidad > SaldoCuenta){
             System.out.println("Saldo insuficiente");
         }
-        saldoCuenta-= cantidad;//logica de negocio
+        SaldoCuenta-= Cantidad;//logica de negocio
     }
     
-    public String DATOSPROPIETARIOCUENTA(){
+    public String DatosPropietarioCuenta(){
         String informacion="";
-        informacion += "DUI: " + propietarioCuenta.DUICLIENTE + "\n";
-        informacion += "NONMBRE: " + propietarioCuenta.NOMBRECLIENTE + "\n";
-        informacion += "TELEFONO: " + propietarioCuenta.TELEFONOCLIENTE + "\n";
+        informacion += "DUI: " + propietarioCuenta.DUICliente + "\n";
+        informacion += "Nombre: " + propietarioCuenta.NombreCliente + "\n";
+        informacion += "Telefono: " + propietarioCuenta.TelefonoCliente + "\n";
         return informacion;
     }
    
